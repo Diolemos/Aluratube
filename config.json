@@ -1,0 +1,134 @@
+{
+    "name": "Pedro Diogenes",
+    "job": "Jr front-end dev",
+    "github": "Diolemos",
+    "playlists": {
+        "games": [
+            {
+              "title": "God of War 2- Gameplay",
+              "url": "https://www.youtube.com/watch?v=QAjwSDecOrU",
+              "thumb": "https://img.youtube.com/vi/QAjwSDecOrU/hqdefault.jpg"
+            },
+            {
+              "title": "Top Gear (SNES) Playthrough - NintendoComplete",
+              "url": "https://www.youtube.com/watch?v=uxKlzEAyr9o",
+              "thumb": "https://img.youtube.com/vi/uxKlzEAyr9o/hqdefault.jpg"
+            },
+            {
+              "title": "Grim Fandango Remastered Review",
+              "url": "https://www.youtube.com/watch?v=lH5Hi9f2MHM",
+              "thumb": "https://img.youtube.com/vi/lH5Hi9f2MHM/hqdefault.jpg"
+            },
+            {
+              "title": "2023 Lakers Rebuild! | NBA 2K23 Future League Mode | Lakers vs. Warriors",
+              "url": "https://www.youtube.com/watch?v=nJWNbIWLEis",
+              "thumb": "https://img.youtube.com/vi/nJWNbIWLEis/hqdefault.jpg"
+            },
+            {
+              "title": "Desperados 3- review",
+              "url": "https://www.youtube.com/watch?v=G_qim8Z7FTE",
+              "thumb": "https://img.youtube.com/vi/G_qim8Z7FTE/hqdefault.jpg"
+            },
+            {
+              "title": "HITMAN 3 - Realistic Silent Stealth Gameplay | Ultra High Graphics [4K HDR 60 FPS]",
+              "url": "https://www.youtube.com/watch?v=m4H1vUOfBrg",
+              "thumb": "https://img.youtube.com/vi/m4H1vUOfBrg/hqdefault.jpg"
+            },
+            {
+              "title": "Resident Evil 2 Angry Review",
+              "url": "https://www.youtube.com/watch?v=N03RC4jwbw0",
+              "thumb": "https://img.youtube.com/vi/N03RC4jwbw0/hqdefault.jpg"
+            },
+            {
+              "title": "Is 1.6 gameplay really better than CS:GO?",
+              "url": "https://www.youtube.com/watch?v=agNzE-YBJGQ",
+              "thumb": "https://img.youtube.com/vi/agNzE-YBJGQ/hqdefault.jpg"
+            }
+          ],
+        "front-end": [
+          {
+            "title": "CS50 2020 - Lecture 4 - Memory",
+            "url": "https://www.youtube.com/watch?v=NKTfNv2T0FE",
+            "thumb": "https://img.youtube.com/vi/NKTfNv2T0FE/hqdefault.jpg"
+          },
+          {
+            "title": "React Course - Beginner's Tutorial for React JavaScript Library [2022]",
+            "url": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+            "thumb": "https://img.youtube.com/vi/bMknfKXIFA8/hqdefault.jpg"
+          },
+          {
+            "title": "Is JavaScript Dead?",
+            "url": "https://www.youtube.com/watch?v=sbGhCH3P0RM",
+            "thumb": "https://img.youtube.com/vi/sbGhCH3P0RM/hqdefault.jpg"
+          },
+          {
+            "title": "ReactJS Tutorial - 5 - Functional Components",
+            "url": "https://www.youtube.com/watch?v=Cla1WwguArA",
+            "thumb": "https://img.youtube.com/vi/Cla1WwguArA/hqdefault.jpg"
+          },
+          {
+            "title": "Pillar of OOPS(Data Abstraction,Inheritance, Polymorphism, Encapsulation. )",
+            "url": "https://www.youtube.com/watch?v=9pv3FpH2Wso",
+            "thumb": "https://img.youtube.com/vi/9pv3FpH2Wso/hqdefault.jpg"
+          },
+          {
+            "title": "How to pick the right colors for your website or app | UI/UX design tips",
+            "url": "https://www.youtube.com/watch?v=ewRYw4pnKQU",
+            "thumb": "https://img.youtube.com/vi/ewRYw4pnKQU/hqdefault.jpg"
+          },
+          {
+            "title": "React Hooks Tutorial - 2 - useState Hook",
+            "url": "https://www.youtube.com/watch?v=lAW1Jmmr9hc",
+            "thumb": "https://img.youtube.com/vi/lAW1Jmmr9hc/hqdefault.jpg"
+          },
+          {
+            "title": "Webpack // Dicionário do Programador",
+            "url": "https://www.youtube.com/watch?v=PcWOAYbTc9Y",
+            "thumb": "https://img.youtube.com/vi/PcWOAYbTc9Y/hqdefault.jpg"
+          },
+          {
+            "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
+            "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
+            "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+          }
+        ],
+        "Backend": [
+          {
+            "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+            "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
+            "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+          },
+          {
+            "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+            "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
+            "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+          },
+          
+          {
+            "title": "O que é o Java? #HipstersPontoTube",
+            "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
+            "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+          },
+          {
+            "title": "O que é Machine Learning? #HipstersPontoTube",
+            "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+            "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+          },
+          {
+            "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
+            "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
+            "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+          },
+          {
+            "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
+            "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
+            "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+          },
+          {
+            "title": "O que é o C#? #HipstersPontoTube",
+            "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
+            "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+          }
+        ]
+      }
+    }
