@@ -13,10 +13,10 @@ function HomePage(){
     <CSSReset/>
     <div style={homepageStyles}>
      <Menu/> 
-        <Banner url={config.banner}/>
+    <Banner url={config.banner}/>
         
-        <Header></Header>
-        <Timeline playLists={config.playlists}></Timeline>
+    <Header></Header>
+    <Timeline playLists={config.playlists} favoriteList={config.favorites}></Timeline>
     </div> </>)
     
     

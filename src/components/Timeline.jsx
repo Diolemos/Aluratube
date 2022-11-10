@@ -6,6 +6,11 @@ import styled from "styled-components";
   width: 100%;
   padding: 16px;
   overflow: hidden;
+  .favoriteImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
   h2 {
     font-size: 16px;
     margin-bottom: 16px;
@@ -48,14 +53,14 @@ import styled from "styled-components";
 `;
 
 
-const Timeline = ({playLists})=>{
+const Timeline = ({playLists,favoriteList})=>{
     const playlistNames = Object.keys(playLists)
-    
+    // const favoritesNames = Object.keys(favoriteList)
 
     return (<StyledTimeline>
         {playlistNames.map((playlistName)=>{
             const videos = playLists[playlistName]
-            console.log(videos)
+            
             return(
                 <section>
                     <h2>{playlistName}</h2>
@@ -75,6 +80,21 @@ const Timeline = ({playLists})=>{
                 </section>
             )
              })}
+           <section>
+            <h2>Favorites</h2>
+            <div className="favorites-container">
+                {
+                    favoriteList.map((favorite)=>{
+                        return(
+                            <a href={favorite.url} className="favoriteContainer">
+                                <img src={favorite.img} className="favoriteImage" alt="favorite channel profile image" />
+                                <p className="favoriteName">{favorite.name}</p>
+                            </a>
+                        )
+                    })
+                }
+            </div>
+           </section>
     </StyledTimeline>)
 }
 
