@@ -11,6 +11,7 @@ import styled from "styled-components";
     height: 100px;
     border-radius: 50%;
   }
+  
   h2 {
     font-size: 16px;
     margin-bottom: 16px;
@@ -29,6 +30,15 @@ import styled from "styled-components";
     padding: 0;
     overflow: hidden;
     padding: 16px;
+
+    .favorites-container{
+    
+    grid-gap: 0;
+    margin-bottom: 16px;
+    height: 100%;
+    overflow: hidden;
+   }
+
     div {
       
       width: calc(100vw - 16px * 4);
@@ -39,6 +49,7 @@ import styled from "styled-components";
       grid-auto-columns: minmax(200px,1fr);
       overflow-x: scroll;
       scroll-snap-type: x mandatory;
+      
       a {
         scroll-snap-align: start;
         span {
