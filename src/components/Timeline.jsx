@@ -64,7 +64,7 @@ import styled from "styled-components";
 `;
 
 
-const Timeline = ({playLists,favoriteList})=>{
+const Timeline = ({playLists,favoriteList,searchValue})=>{
     const playlistNames = Object.keys(playLists)
     // const favoritesNames = Object.keys(favoriteList)
 
@@ -73,12 +73,16 @@ const Timeline = ({playLists,favoriteList})=>{
             const videos = playLists[playlistName]
             
             return(
-                <section>
+                <section key={playlistName}>
                     <h2>{playlistName}</h2>
                     <div>
-                   { videos.map((video)=>{
+                   { /*filter the array of objcts and return an array with obj that match the search input  */videos.filter((video)=>{
+                    const titleLowerCased = video.title.toLowerCase()
+                    const searchInputLowerCased = searchValue.toLowerCase()
+                    return titleLowerCased.includes(searchInputLowerCased)})
+                    .map((video)=>{
                 return(
-                    <a href={video.url}>
+                    <a key={video.url} href={video.url}>
                         <img src={video.thumb}/>
                         <span>
                             {video.title}
