@@ -2,6 +2,14 @@
     "name": "Pedro Diogenes",
     "job": "Jr front-end dev",
     "github": "Diolemos",
+    "favorites":
+        [{"name":"Fox News Bussiness",
+            "url":"https://www.youtube.com/c/FoxBusiness",
+            "img": "https://yt3.ggpht.com/ytc/AMLnZu93xCEC6wToXyiOQzEtPDFix43OJlA0-kDIVw4xwQ=s88-c-k-c0x00ffffff-no-rj"},
+    {"name": "8thManDVD.com",
+    "url": "https://www.youtube.com/user/8thManDVDcom",
+    "img": "https://yt3.ggpht.com/ytc/AMLnZu_wPEvuTlT9ZqqwNWNMpUUVaq63u3f4xNqXfChlUA=s88-c-k-c0x00ffffff-no-rj"}]
+    ,
     "banner" : "https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80",
     "playlists": {
         "games": [
