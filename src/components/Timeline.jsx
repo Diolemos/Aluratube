@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
  const StyledTimeline = styled.div`
   flex: 1;
   width: 100%;
@@ -46,4 +47,35 @@ import styled from "styled-components";
   }
 `;
 
-export default StyledTimeline
+
+const Timeline = ({playLists})=>{
+    const playlistNames = Object.keys(playLists)
+    
+
+    return (<StyledTimeline>
+        {playlistNames.map((playlistName)=>{
+            const videos = playLists[playlistName]
+            console.log(videos)
+            return(
+                <section>
+                    <h2>{playlistName}</h2>
+                    <div>
+                   { videos.map((video)=>{
+                return(
+                    <a href={video.url}>
+                        <img src={video.thumb}/>
+                        <span>
+                            {video.title}
+                        </span>
+
+                    </a>
+                )
+            })}
+                    </div>
+                </section>
+            )
+             })}
+    </StyledTimeline>)
+}
+
+export default Timeline
