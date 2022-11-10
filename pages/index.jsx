@@ -12,8 +12,9 @@ function HomePage(){
     <>
     <CSSReset/>
     <div style={homepageStyles}>
+     <Menu/> 
         <Banner url={config.banner}/>
-        <Menu/>
+        
         <Header></Header>
         <Timeline playLists={config.playlists}></Timeline>
     </div> </>)
