@@ -7,7 +7,7 @@ const StyledDiv = styled.div`
     width: 100vw;
     height:300px;
     object-fit: cover;
-    object-position: 0 -350px; /* The specif image I chose looks better this way */
+    /* object-position: 0 -350px; The specif image I chose looks better this way */
     margin-top: 56px; /* menu  */
    }
 
