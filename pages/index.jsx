@@ -1,5 +1,4 @@
 import config from "../config.json";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu/";
 import Timeline from "../src/components/Timeline";
 import Header from "../src/Header";
@@ -14,7 +13,7 @@ function HomePage(){
     // console.log(config.playlists)
     return(
     <>
-    <CSSReset/>
+    
     <div >
      <Menu searchInput={searchInput} setSearchInput={setSearchInput}/> 
     <Banner url={config.banner}/>
