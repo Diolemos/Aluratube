@@ -44,6 +44,7 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default function _App(props) {
+    console.log(props)
     return (
         <ProviderWrapper>
             <MyApp {...props} />

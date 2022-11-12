@@ -26,7 +26,7 @@ const StyledMenu = styled.header`
   }
 `;
 
-export default function Menu({searchInput, setSearchInput}) {
+export default function Menu({searchInput, setSearchInput,url,setUrl}) {
   return (
     <StyledMenu>
       <div>
@@ -34,7 +34,7 @@ export default function Menu({searchInput, setSearchInput}) {
        
       </div>
       <Search searchInput={searchInput} setSearchInput={setSearchInput}/>
-      <DarkModeSwitch/>
+      <DarkModeSwitch url={url} setUrl={setUrl}/>
     </StyledMenu>
   );
 }
